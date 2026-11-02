@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077122854618",
+    "project_id": "praktikum-pm2",
+    "storage_bucket": "praktikum-pm2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077122854618:android:ec6f83ea4a7106eef93fe3",
+        "android_client_info": {
+          "package_name": "com.example.realtime_communication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeopfQq5xOSoETL-N27uugknqbSJG7C0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

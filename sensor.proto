@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package monitoring;
+
+service SensorService {
+  rpc GetLatest (SensorRequest) returns (SensorReading);
+  rpc WatchSensor (SensorRequest) returns (stream SensorReading);
+}
+
+message SensorRequest {
+  string device_id = 1;
+}
+
+message SensorReading {
+  string device_id = 1;
+  double value = 2;
+  int64 timestamp = 3;
+}
